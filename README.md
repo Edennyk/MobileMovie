@@ -2,8 +2,11 @@
 - Academic Project: Mobile Application
 - Android 
 
-#Skills
+Skills
+=
 Java 
 
-#Description
-#Screenshots
+Description
+=
+Screenshots
+=
