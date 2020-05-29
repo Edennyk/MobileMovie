@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Show Box</string>
+
+    <string-array name="dates">
+        <item>Choose date</item>
+        <item>[15/4/2020]</item>
+        <item>[16/4/2020]</item>
+        <item>[17/4/2020]</item>
+        <item>[18/4/2020]</item>
+
+    </string-array>
+
+    <string-array name="times">
+        <item>Choose time</item>
+        <item>[9:00 am]</item>
+        <item>[12:30 pm]</item>
+        <item>[3:45 pm]</item>
+        <item>[8:00 pm]</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#FF9100">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="13dp"
+        android:background="#E1EBF0">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="295dp"
+            android:layout_height="195dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:drawableLeft="@drawable/ic_map_"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:text="Location"
+            android:textAlignment="center"
+            android:textColor="#f9bc00"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/tvWeb"
+            android:layout_width="286dp"
+            android:layout_height="62dp"
+            android:layout_below="@id/tvLocation"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_public"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:text="Visit Us"
+            android:textAlignment="center"
+            android:textColor="#f9bc00"
+            android:textSize="32sp" />
+
+
+        <TextView
+            android:id="@+id/tvMs"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvWeb"
+            android:layout_alignStart="@+id/tvWeb"
+            android:layout_alignLeft="@+id/tvWeb"
+            android:layout_marginStart="-35dp"
+            android:layout_marginLeft="-35dp"
+            android:layout_marginTop="18dp"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:text="We are here to Help"
+            android:textAlignment="center"
+            android:textColor="#f9bc00"
+            android:textSize="24sp"
+            android:gravity="center_horizontal" />
+
+
+        <Button
+            android:id="@+id/btnsendEmail"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMs"
+            android:layout_alignStart="@+id/tvWeb"
+            android:layout_alignLeft="@+id/tvWeb"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="31dp"
+            android:background="#FF9100"
+            android:text="Contact Us"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+        </RelativeLayout>
+
+

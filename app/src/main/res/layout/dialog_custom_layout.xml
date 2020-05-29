@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FF9100"
+    >
+
+    <RelativeLayout
+        android:layout_width="406dp"
+        android:layout_height="714dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#E1EBF0">
+
+        <ImageView
+            android:id="@+id/moviePoster"
+            android:layout_width="170dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:id="@+id/titleDialog"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/moviePoster"
+            android:text="Title"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/runTime"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleDialog"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/moviePoster"
+            android:text="Runtime"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerDatePicker"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="139dp"
+            android:layout_toRightOf="@+id/moviePoster"
+            android:popupBackground="#f9bc00"></Spinner>
+
+        <Spinner
+            android:id="@+id/spinnerTimePicker"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="190dp"
+            android:layout_toRightOf="@+id/moviePoster"
+            android:popupBackground="#f9bc00"></Spinner>
+
+        <Button
+            android:id="@+id/bookTicket"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="111dp"
+            android:layout_marginTop="250dp"
+            android:layout_toRightOf="@+id/moviePoster"
+            android:background="#f9bc00"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF"
+            android:text="Book Ticket" />
+
+        <TextView
+            android:id="@+id/tvConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bookTicket"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:background="#f9bc00"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:text="Booked Information"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp" />
+        <TextView
+            android:id="@+id/bookTitle"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvConfirm"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:text="Movie Title"
+            android:textAlignment="center"
+            android:textColor="#f9bc00"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/bookDate"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bookTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:text="Movie Date"
+            android:textAlignment="center"
+            android:textColor="#f9bc00"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bookTime"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bookDate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:text="Movie Date"
+            android:textAlignment="center"
+            android:textColor="#f9bc00"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/helpInfo"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="530dp"
+            android:background="#f9bc00"
+            android:fontFamily="monospace"
+            android:text="More Information"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
