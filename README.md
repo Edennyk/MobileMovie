@@ -16,6 +16,6 @@ Description
 
 Screenshots
 =
-<img src="https://user-images.githubusercontent.com/59883982/83420662-f1a9b480-a3f4-11ea-83b8-f035c7623d32.jpg" width="200"></img>
+<img src="https://user-images.githubusercontent.com/59883982/84431305-1540dc00-abf9-11ea-8448-a27800619f4a.png" width="200"></img>
 
-<img src="https://user-images.githubusercontent.com/59883982/83420664-f3737800-a3f4-11ea-8a81-900ef282a2a2.jpg" width="200"></img>
+<img src="https://user-images.githubusercontent.com/59883982/84431309-170a9f80-abf9-11ea-8b46-a1839d09b0ad.png" width="200"></img>
